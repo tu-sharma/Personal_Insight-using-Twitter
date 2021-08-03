@@ -1,0 +1,11 @@
+# For Python
+
+PyQt5
+nltk
+webbrowser
+ibm_watson
+ibm_cloud_sdk_core
+
+# For R
+
+Every listed library in Main.r 
