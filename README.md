@@ -50,5 +50,21 @@ Here are some screenshot of Desktop Application to generate report of Personal I
 ![Pesonal Insight](https://github.com/tusharma78/Personal_Insight-using-Twitter/blob/main/Image/personalityshot.jpg)
 
 #### Flow Chart
+<p align="center">
+  <img width="800" height="600" src="https://github.com/tusharma78/Personal_Insight-using-Twitter/blob/main/Image/Twitter_PI.png">
+</p>
 
-![Flow Chart](https://github.com/tusharma78/Personal_Insight-using-Twitter/blob/main/Image/Twitter_PI.png)
+### Instructions 
+
+To run the GUI
+
+```
+python3 Application.py
+```
+or
+
+Generate *Report* using terminal
+
+```
+R -e "rmarkdown::render('new_r.Rmd',output_file='output.html')"
+```
