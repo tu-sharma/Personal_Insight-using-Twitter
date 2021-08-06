@@ -59,12 +59,12 @@ Here are some screenshot of Desktop Application to generate report of Personal I
 To run the GUI
 
 ```
-python3 Application.py
+$ python3 Application.py
 ```
 or
 
 Generate *Report* using terminal
 
 ```
-R -e "rmarkdown::render('new_r.Rmd',output_file='output.html')"
+$ R -e "rmarkdown::render('new_r.Rmd',output_file='output.html')"
 ```
