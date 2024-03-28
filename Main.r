@@ -15,16 +15,16 @@ options(warn = -1)
 
 twitter_token <- create_token(
   app = "Personal Insight",
-  consumer_key = "SFzUTzvltwVwhLOPcoFXNcLil" ,
-  consumer_secret = "ae0hnfBm8jys8XABA7vLbGSeLwyQie09xCYHie0DZj1KoygiyG",
-  access_token = "881373068807065600-th9Am7WPvBXBxhfXi6SesBqK8vVoiDA",
-  access_secret= "BFTIACOtNjdMU7tNwGqbWi3TBEh6KtgBDJgNKsPE3yLXq",
+  consumer_key = "SFzUTzvltwVwhLOP5fgyjcoFXNcLil" ,
+  consumer_secret = "ae0hnfBm8jhfhuujys8XABA7vLbGSeLwyQie09xCYHie0DZj1KoygiyG",
+  access_token = "8813730688070656056654570-th9Am7WPvBXBxhfXi6SesBqK8vVoiDA",
+  access_secret= "BFTIACOtNjddgygjuuthjMU7tNwGqbWi3TBEh6KtgBDJgNKsPE3yLXq",
   set_renv = TRUE)
 
 climate <- search_tweets("climate",n=1000, include_rts=FALSE,lang="en")
 
 # user_id <- readline(prompt = "Enter Twitter Handle:")
-user_id <- 'ArvindKejriwal' 
+user_id <- 'User Handle' 
 User_tweets <- get_timeline(user_id,n= 3200)
 
 # User
